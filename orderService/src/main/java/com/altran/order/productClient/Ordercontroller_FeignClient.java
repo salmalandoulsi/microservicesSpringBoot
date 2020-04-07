@@ -17,6 +17,12 @@ public class Ordercontroller_FeignClient {
 
 	@Autowired
 	IProductServiceClient iProductServiceClient;
+	
+	@GetMapping(value = "/fetchExemple")
+	public String fetchExemple() {
+		
+		return iProductServiceClient.getExemple();
+	}
 
 	@GetMapping(value = "/fetchProducts")
 	public ResponseEntity<?> fetchAllProducts() {
