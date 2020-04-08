@@ -1,0 +1,12 @@
+
+#server port
+server:
+  port: 8300
+
+
+
+#application name
+spring:
+  application:
+    name: order-service
+
