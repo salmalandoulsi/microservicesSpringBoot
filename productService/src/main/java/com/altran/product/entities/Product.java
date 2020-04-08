@@ -29,9 +29,7 @@ public class Product {
 		// TODO Auto-generated constructor stub
 
 	}
-	// getters
-	// Setters
-
+	
 	public Long getId() {
 		return id;
 	}
